@@ -27,10 +27,28 @@ README.md
 - Removed thousand separators from currency values, converted to proper DECIMAL type
 - Converted date strings to DATE type
 
+## Dashboard
+
+Three-page interactive Power BI dashboard:
+
+**Overview** — monthly revenue trend, key metrics (total revenue, average order value, 
+order count), and a date range slicer.
+
+![Overview](screenshots/dashboard_overview.png)
+
+**Customers & Channels** — top 10 customers by spend and revenue breakdown by sales 
+channel, with context on the offline-to-online transition.
+
+![Customers & Channels](screenshots/dashboard_customers_channels.png)
+
+**Key Insights** — written summary of the findings below, paired with a supporting chart.
+
+![Key Insights](screenshots/dashboard_key_insights.png)
+
 ## Key Findings
 
 1. **Revenue growth**: monthly revenue grew from ~314K (Dec 2019) to a peak of several 
-   million per month by 2022, reflecting strong early business growth.
+   million per month by 2021–2022, reflecting strong early business growth.
 
 2. **Customer concentration**: the top 10 customers account for a significant share of 
    total revenue. Note: the #1 customer aggregates orders placed on behalf of buyers 
@@ -54,7 +72,3 @@ README.md
   with this dataset.
 - A small number of records (4 out of 5,647) had corrupted dates that were manually 
   corrected based on cross-referencing with the source system.
-
-## Next Steps
-
-- Power BI dashboard consolidating the above findings into an interactive view
