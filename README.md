@@ -6,9 +6,9 @@ a Warhammer miniatures and paints e-commerce business (Kazakhstan), covering 201
 
 ## Data Source
 
-Sales data exported from 1C:Enterprise (1C:УНФ), covering invoice-level records: date, 
-customer, amount, sales channel. Customer names have been anonymized before publishing 
-(replaced with sequential IDs, ranked by total spend).
+Sales data exported from 1C:Enterprise (1C:УНФ), containing 5,647 invoice-level transactions between December 2019 and July 2026.
+Each row represents a single completed sales invoice.
+Customer names were anonymized before publication.
 
 ## Tools
 
@@ -17,8 +17,10 @@ customer, amount, sales channel. Customer names have been anonymized before publ
 
 ## Project Structure
 
-SQL/ — all queries, in order of execution
-results/ — CSV exports of query results
+SQL/ — SQL scripts
+SQL query results/ — CSV exports
+Screenshots/
+powerbi/
 README.md
 
 ## Data Cleaning
