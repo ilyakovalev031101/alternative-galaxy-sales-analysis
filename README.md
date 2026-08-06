@@ -34,16 +34,16 @@ Three-page interactive Power BI dashboard:
 **Overview** — monthly revenue trend, key metrics (total revenue, average order value, 
 order count), and a date range slicer.
 
-![Overview](screenshots/dashboard_overview.png)
+[![Overview](Screenshots/dashboard_overview.png)](Screenshots/dashboard_overview.png)
 
 **Customers & Channels** — top 10 customers by spend and revenue breakdown by sales 
 channel, with context on the offline-to-online transition.
 
-![Customers & Channels](screenshots/dashboard_customers_channels.png)
+[![Customers & Channels](Screenshots/dashboard_customers_channels.png)](Screenshots/dashboard_customers_channels.png)
 
 **Key Insights** — written summary of the findings below, paired with a supporting chart.
 
-![Key Insights](screenshots/dashboard_key_insights.png)
+[![Key Insights](Screenshots/dashboard_key_insights.png)](Screenshots/dashboard_key_insights.png)
 
 ## Key Findings
 
